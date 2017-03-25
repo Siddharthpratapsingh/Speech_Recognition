@@ -30,8 +30,8 @@ try:
     engine.say(r.recognize_google(audio))
     engine.runAndWait()
 except sr.UnknownValueError:
-    print("Sphinx could not understand audio")
+    print("Jarvis could not understand audio")
 except sr.RequestError as e:
-    print("Sphinx error; {0}".format(e))
+    print("Jarvis error; {0}".format(e))
 
 
